@@ -36,13 +36,13 @@ const OfferSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <OfferCard 
             title="ENGINEERING EXPERIENCE"
-            image="/lovable-uploads/0ad8d9d2-283d-48bb-8aa7-0ddfc3d61508.png"
+            image="/lovable-uploads/ceeb9bb9-69c3-4c22-b81d-6390df029027.png"
             description="Across our sub teams, invaluable expertise is readily accessible at every stage of development, spanning software engineering, structural design, and electrical systems. This ensures a robust support network, fostering comprehensive project growth and innovation."
           />
           
           <OfferCard 
             title="PROFESSIONAL DEVELOPMENT PROGRAM"
-            image="/lovable-uploads/ceeb9bb9-69c3-4c22-b81d-6390df029027.png"
+            image="/lovable-uploads/0ad8d9d2-283d-48bb-8aa7-0ddfc3d61508.png"
             description="By engaging with industry mentors and companies, members can showcase their contributions, receive referrals to top firms, and enhance their networking skills during lecture series events. This fosters professional growth and opens doors to prestigious career opportunities."
           />
           
