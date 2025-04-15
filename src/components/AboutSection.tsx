@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row gap-8">
           <div className="md:w-1/2">
             <img 
-              src="/lovable-uploads/ee48d235-d5d0-4197-bcbf-70ab5b2b033b.png" 
+              src="/lovable-uploads/50061e60-cdb8-4a4c-a32f-7e4663d0dcd7.png" 
               alt="Buckeye Vertical Team" 
               className="w-full h-auto rounded"
             />
