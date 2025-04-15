@@ -36,7 +36,7 @@ const SubteamsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <SubteamCard 
             title="STRUCTURES"
-            image="/lovable-uploads/df303ba3-1acc-4732-b4a6-5bea4e9a0cee.png"
+            image="/lovable-uploads/f59bf552-7dba-436b-8d3a-028557cd9d4e.png"
             caption="CAD of Air Brutus 1"
             description={
               <p>
@@ -47,7 +47,7 @@ const SubteamsSection = () => {
           
           <SubteamCard 
             title="SOFTWARE"
-            image="/placeholder.svg"
+            image="/lovable-uploads/87711933-08f4-4a64-be6e-a25c01b407ef.png"
             caption="Object Detection Model"
             description={
               <p>
@@ -58,7 +58,7 @@ const SubteamsSection = () => {
           
           <SubteamCard 
             title="AVIONICS"
-            image="/placeholder.svg"
+            image="/lovable-uploads/58856da4-3c7c-42f2-bbd0-2b10d904d49e.png"
             caption="Soldering Avionics System"
             description={
               <p>
