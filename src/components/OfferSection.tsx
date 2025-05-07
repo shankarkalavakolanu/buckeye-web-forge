@@ -42,20 +42,20 @@ const OfferSection = () => {
           
           <OfferCard 
             title="PROFESSIONAL DEVELOPMENT PROGRAM"
-            image="/lovable-uploads/0ad8d9d2-283d-48bb-8aa7-0ddfc3d61508.png"
+            image="/lovable-uploads/0353419a-e136-4dbb-a214-077f62a40fe4.png"
             description="By engaging with industry mentors and companies, members can showcase their contributions, receive referrals to top firms, and enhance their networking skills during lecture series events. This fosters professional growth and opens doors to prestigious career opportunities."
           />
           
           <OfferCard 
             title="SOCIAL EVENTS"
-            image="/lovable-uploads/0353419a-e136-4dbb-a214-077f62a40fe4.png"
+            image="/lovable-uploads/53aa652d-fe29-45ef-9a63-8160bf4ef62e.png"
             description="Throughout the year, social events like bowling and Top Golf will be organized to foster healthier relationships among team members and mentors. These activities aim to strengthen bonds and enhance team cohesion."
           />
         </div>
         
         <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-8">
           <img 
-            src="/lovable-uploads/53aa652d-fe29-45ef-9a63-8160bf4ef62e.png" 
+            src="/lovable-uploads/coe.png" 
             alt="The Ohio State University College of Engineering" 
             className="h-16 object-contain"
           />

@@ -12,7 +12,7 @@ const Index = () => {
     <div className="flex flex-col min-h-screen">
       <Navigation />
       <HeroSection />
-      <MissionSection />
+      {/* <MissionSection /> */}
       <AboutSection />
       <SubteamsSection />
       <JoinSection />

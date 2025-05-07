@@ -1,31 +1,30 @@
-
 import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full h-screen bg-gray-400 bg-blend-overlay bg-opacity-20">
-      {/* Background image */}
-      <div 
+    <div className="relative w-full h-screen">
+      {/* Background image without effects */}
+      <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/lovable-uploads/cf45be80-44b7-44c3-b116-7d16c79fb0ae.png')" }}
+        style={{ backgroundImage: "url('/lovable-uploads/drone_background_edited.JPG')" }}
       ></div>
-      
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-      
-      {/* Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <div className="mb-12">
-          <img 
-            src="/lovable-uploads/5e6cbe4e-5ddc-4aae-9236-9396f7bb7ee5.png" 
-            alt="Buckeye Vertical Logo" 
-            className="w-64 h-auto"
+
+      {/* Positioned Transparent BV Logo */}
+      <div className="absolute left-0 right-0 z-10" style={{ top: "5%" }}>
+        <div className="flex justify-center">
+          <img
+            src="/lovable-uploads/BV Transparent Logo.png"
+            alt="Buckeye Vertical Logo"
+            className="w-64 sm:w-80"
           />
         </div>
-        <div className="text-center">
-          <h1 className="text-6xl font-bold text-zinc-800 uppercase">Buckeye Vertical</h1>
-          <p className="text-xl text-zinc-800 mt-2">AT THE OHIO STATE UNIVERSITY®</p>
-        </div>
+      </div>
+
+      {/* Motto text positioned at the bottom */}
+      <div className="absolute bottom-8 left-0 right-0 text-center z-10">
+        <p className="text-white text-base sm:text-lg">
+          Soaring beyond boundaries. Engineering tomorrow&apos;s skies.
+        </p>
       </div>
     </div>
   );

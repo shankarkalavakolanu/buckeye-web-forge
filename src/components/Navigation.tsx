@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
@@ -6,7 +5,17 @@ import { ChevronDown } from "lucide-react";
 const Navigation = () => {
   return (
     <nav className="absolute top-0 w-full z-10 px-6">
-      <div className="container mx-auto flex justify-center items-center py-4">
+      <div className="relative container mx-auto flex items-center justify-center py-4">
+        {/* Logo on the left (larger size) with top padding */}
+        <Link to="/" className="absolute left-0 top-6 hover:opacity-80">
+          <img
+            src="/lovable-uploads/BV Transparent Cropped.png"
+            alt="Buckeye Vertical Logo"
+            className="h-20 w-auto"
+          />
+        </Link>
+
+        {/* Navigation Links (centered) */}
         <ul className="flex space-x-6 text-white uppercase tracking-wider text-sm font-medium">
           <li className="hover:opacity-80">
             <Link to="/leadership">LEADERSHIP</Link>
